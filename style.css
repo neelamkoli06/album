@@ -1,0 +1,121 @@
+.fa-solid {
+  font-size: 30px;
+}
+.contact {
+  width: 20%;
+  float: left;
+  margin-top: -10%;
+  margin-left: 60%;
+}
+#nav-bottom h3 {
+  margin-left: -82%;
+}
+#text1 {
+  margin-top: 4%;
+}
+#text1 button {
+  margin-top: 2%;
+  margin-left: 37%;
+}
+#text1 #button2 {
+  margin-left: 2%;
+}
+.text-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 2%;
+}
+.cards {
+  height: 60%;
+  width: 100%;
+  background-color: whitesmoke;
+  float: left;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+  margin-bottom: 4%;
+}
+.card {
+  height: 400px;
+  width: 25%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+#para {
+  margin-top: -6%;
+  margin-left: 75%;
+  font-size: small;
+}
+a {
+  cursor: pointer;
+}
+footer {
+  padding-left: 4%;
+  padding-right: 6%;
+}
+u {
+  text-decoration-color: rgb(14, 106, 198);
+}
+/* --------------------------------------------------------------------------- */
+@media screen and (max-width: 767px) {
+  .fa-solid {
+    font-size: 24px;
+    margin-left: -10%;
+  }
+  .contact {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    font-size: 15px;
+  }
+  #nav-bottom h3 {
+    margin-left: -48%;
+  }
+  #text1 h1 {
+    font-size: 25px;
+  }
+  #text1 p {
+    width: 70%;
+    margin-left: 16%;
+    font-size: small;
+  }
+  #text1 button {
+    height: 56px;
+    width: 38%;
+    margin-right: 4%;
+    font-size: small;
+  }
+  .cards {
+    height: 2800px;
+    width: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .card {
+    height: 400px;
+    width: 100%;
+    margin-right: 1%;
+    margin-left: 0%;
+  }
+  #separate-card{
+    float: left;
+  }
+
+  footer {
+    height: 100px;
+    width: 100%;
+  }
+  footer p {
+    width: 75%;
+    font-size: 10px;
+    float: left;
+  }
+  footer a {
+    width: 30%;
+    float: right;
+    font-size: 10px;
+  }
+}
